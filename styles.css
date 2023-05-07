@@ -2,11 +2,11 @@
 
 body {
   font-family: 'Outfit', sans-serif;
-  font-size: 15px;
+  font-size: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   background-color: hsl(212, 45%, 89%);
@@ -19,23 +19,24 @@ body {
   flex-direction: column;
   text-align: center;
   background-color: hsl(0, 0%, 100%);
-  padding: 15px;
-  border-radius: 15px;
-  width: 290px;
+  padding: 0.5em;
+  border-radius: 1em;
+  width: 9em;
 }
 
 .qr-code img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 1em;
 }
 
-.qr-text {
+.qr-text,
+h1 {
   font-size: 1.25rem;
-  padding: 0 5px 10px 0;
+  padding: 0 0.25em 0.5em 0;
   letter-spacing: 0.05rem;
 }
 
-.qr-text h3::first-letter {
+.qr-text h1::first-letter {
   text-transform: capitalize;
 }
 
